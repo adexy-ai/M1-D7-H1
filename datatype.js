@@ -23,30 +23,36 @@ console.log("\n These are the primitive variables:", dataTypes)
 
 /* WRITE YOUR ANSWER HERE */
 console.log("A variable is container for values they have been assigned")
+
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+let num1 = 12
+let num2 = 20
+let numSum = num1 + num2
+console.log("The sume of ", num1, "+ ", num2, "is: ", numSum)
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+let x = 12
+console.log("This is the value of x: ")
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+let Name = "John Doe"
+console.log(Name)
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+intNum = 12
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
  Verify that name1 is different from name2 (HINT: check their equality to be false).
@@ -61,6 +67,8 @@ console.log("A variable is container for values they have been assigned")
 */
 
 /* WRITE YOUR ANSWER HERE */
+let X = 6
+console.log("\n the value of x is: ", X)
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
